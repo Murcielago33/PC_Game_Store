@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - PC Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="brand">
+                <img class="logo" src="img/logo.jpeg" alt="Logo da PC Store">
+                <div class="brand-copy"><h1>PC Store</h1><p>Sua loja de informática.</p></div>
+            </div>
+            <form class="site-search" action="produtos.html" method="get">
+                <label for="site-search">Buscar produtos</label>
+                <input type="search" id="site-search" name="q" placeholder="Buscar produtos...">
+                <button type="submit" aria-label="Buscar">🔍</button>
+            </form>
+            <div class="header-actions">
+                <div class="account-links"><a href="login.html">Login</a><a href="cadastro.html">Cadastro</a></div>
+                <a class="cart-button" href="dashboard.html" aria-label="Abrir carrinho">🛒</a>
+                <input class="theme-toggle" type="checkbox" id="theme-toggle">
+                <label class="theme-button" for="theme-toggle" aria-label="Alternar tema"><span class="dark-label">🌙</span><span class="light-label">☀️</span></label>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="dashboard.html">Painel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Sobre a PC Store</h2>
+        <p>A PC Store é uma loja especializada em tecnologia e informática para diferentes necessidades.</p>
+        <p>Oferecemos computadores, peças e acessórios selecionados para estudo, trabalho, entretenimento e evolução do seu conjunto gamer.</p>
+
+        <br>
+        <h3>O que você encontra aqui</h3>
+        <ul>
+            <li>Computadores para estudo, trabalho e lazer.</li>
+            <li>Acessórios para tornar seu ambiente mais confortável.</li>
+            <li>Peças para atualizar e melhorar o desempenho do computador.</li>
+            <li>Monitores, teclados, mouses e periféricos.</li>
+            <li>Atendimento para ajudar você a escolher a melhor solução.</li>
+        </ul>
+        
+        <br>
+        <section class="faq" aria-labelledby="faq-title">
+            <h3 id="faq-title">Perguntas frequentes</h3>
+            <details>
+                <summary>Quais produtos a PC Store oferece?</summary>
+                <p>Oferecemos computadores, peças e acessórios para estudo, trabalho e entretenimento.</p>
+            </details>
+            <details>
+                <summary>Como posso tirar dúvidas sobre um produto?</summary>
+                <p>Entre em contato com a equipe pela página Contatos para receber ajuda na escolha.</p>
+            </details>
+            <details>
+                <summary>Quais formas de pagamento estão disponíveis?</summary>
+                <p>A página de pagamento apresenta as opções demonstrativas de débito, crédito e Pix.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 PC Store</p>
+        <p> Todos os direitos reservados</p>
+        <p><a href="contatos.html">Fale conosco</a></p>
+    </footer>
+</body>
+</html>

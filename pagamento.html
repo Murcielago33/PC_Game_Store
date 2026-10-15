@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - PC Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="brand">
+                <img class="logo" src="img/logo.jpeg" alt="Logo da PC Store">
+                <div class="brand-copy"><h1>PC Store</h1><p>Sua loja de informática.</p></div>
+            </div>
+            <form class="site-search" action="produtos.html" method="get">
+                <label for="site-search">Buscar produtos</label>
+                <input type="search" id="site-search" name="q" placeholder="Buscar produtos...">
+                <button type="submit" aria-label="Buscar">🔍</button>
+            </form>
+            <div class="header-actions">
+                <div class="account-links"><a href="login.html">Login</a><a href="cadastro.html">Cadastro</a></div>
+                <a class="cart-button" href="dashboard.html" aria-label="Abrir carrinho">🛒</a>
+                <input class="theme-toggle" type="checkbox" id="theme-toggle">
+                <label class="theme-button" for="theme-toggle" aria-label="Alternar tema"><span class="dark-label">🌙</span><span class="light-label">☀️</span></label>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="dashboard.html">Painel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Pagamento</h2>
+        <form action="dashboard.html" method="get">
+            <h3>Selecione método de pagamento</h3>
+            <fieldset class="payment-methods">
+                <legend>Método</legend>
+                <label><input type="radio" name="metodo" value="debito" required> Débito</label>
+                <label><input type="radio" name="metodo" value="credito"> Crédito</label>
+                <label><input type="radio" name="metodo" value="pix"> Pix</label>
+            </fieldset>
+            <p>
+                <label for="cartao">Número do cartão (para débito ou crédito):</label>
+                <input type="text" id="cartao" name="cartao" inputmode="numeric" placeholder="0000 0000 0000 0000">
+            </p>
+            <p>
+                <label for="chave-pix">Chave Pix (para pagamento com Pix):</label>
+                <input type="text" id="chave-pix" name="chave-pix" placeholder="E-mail, CPF ou chave aleatória">
+            </p>
+            <p class="payment-note">Preencha os campos acima para continuar com o pagamento.</p>
+            <button class="pay-button" type="submit">Pagar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 PC Store</p>
+        <p>Todos os direitos reservados</p>
+        <p><a href="contatos.html">Fale conosco</a></p>
+    </footer>
+</body>
+</html>
