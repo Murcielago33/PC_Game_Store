@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - PC Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="brand">
+                <img class="logo" src="img/logo.jpeg" alt="Logo da PC Store">
+                <div class="brand-copy">
+                    <h1>PC Store</h1>
+                    <p>Sua loja de informática.</p>
+                </div>
+            </div>
+            <form class="site-search" action="produtos.html" method="get">
+                <label for="site-search">Buscar produtos</label>
+                <input type="search" id="site-search" name="q" placeholder="Buscar produtos...">
+                <button type="submit" aria-label="Buscar">🔍</button>
+            </form>
+            <div class="header-actions">
+                <div class="account-links">
+                    <a href="login.html">Login</a>
+                    <a href="cadastro.html">Cadastro</a>
+                </div>
+                <a class="cart-button" href="dashboard.html" aria-label="Abrir carrinho">🛒</a>
+                <input class="theme-toggle" type="checkbox" id="theme-toggle">
+                <label class="theme-button" for="theme-toggle" aria-label="Alternar tema"><span class="dark-label">🌙</span><span class="light-label">☀️</span></label>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="dashboard.html">Painel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bem-vindo à PC Store!</h2>
+        <p>Loja de computadores, peças e acessórios de informática de alta qualidade, pelo menor preço!</p>
+
+        <div class="carousel" aria-label="Imagens da loja PC Store">
+            <input type="radio" name="loja" id="loja1" checked>
+            <input type="radio" name="loja" id="loja2">
+            <input type="radio" name="loja" id="loja3">
+            <input type="radio" name="loja" id="loja4">
+            <input type="radio" name="loja" id="loja5">
+
+            <div class="carousel-images">
+                <img class="slide slide1" src="img/loja1.png" alt="Interior da loja PC Store">
+                <img class="slide slide2" src="img/loja2.png" alt="Produtos da loja PC Store">
+                <img class="slide slide3" src="img/loja3.png" alt="Espaço de atendimento da PC Store">
+                <img class="slide slide4" src="img/loja4.png" alt="Ambiente da loja PC Store">
+                <img class="slide slide5" src="img/loja5.png" alt="Tecnologia disponível na PC Store">
+            </div>
+
+            <div class="carousel-controls" aria-label="Escolher imagem">
+                <label for="loja1" aria-label="Mostrar imagem 1"></label>
+                <label for="loja2" aria-label="Mostrar imagem 2"></label>
+                <label for="loja3" aria-label="Mostrar imagem 3"></label>
+                <label for="loja4" aria-label="Mostrar imagem 4"></label>
+                <label for="loja5" aria-label="Mostrar imagem 5"></label>
+            </div>
+        </div>
+
+        <h3>Produtos em destaque</h3>
+        <div class="cards">
+            <article class="product-card">
+                <img src="img/backgrond_car.jpeg" alt="Notebook LG Novo">
+                <h4>Notebook LG Novo</h4>
+                <p>Notebook prático para estudos e trabalho.</p>
+                <p class="price">R$ 2.500,00</p>
+                <button class="add-cart" type="button" aria-label="Adicionar Notebook LG Novo ao carrinho">+ 🛒</button>
+                <a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a>
+            </article>
+            <article class="product-card">
+                <img src="img/backgrond_car.jpeg" alt="Teclado USB">
+                <h4>Teclado USB</h4>
+                <p>Teclado confortável para o uso diário.</p>
+                <p class="price">R$ 80,00</p>
+                <button class="add-cart" type="button" aria-label="Adicionar Teclado USB ao carrinho">+ 🛒</button>
+                <a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a>
+            </article>
+            <article class="product-card">
+                <img src="img/backgrond_car.jpeg" alt="Mouse sem fio">
+                <h4>Mouse sem fio</h4>
+                <p>Precisão e liberdade para sua rotina.</p>
+                <p class="price">R$ 60,00</p>
+                <button class="add-cart" type="button" aria-label="Adicionar Mouse sem fio ao carrinho">+ 🛒</button>
+                <a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a>
+            </article>
+        </div>
+        
+        <br>
+        <p><a href="produtos.html">Ver todos os produtos</a></p>
+
+        <br>
+        <hr>
+        <h3>Sobre a PC Store</h3>
+        <p> A PC Store é uma loja voltada para estudantes, gamers e profissionais de informática. Aqui você encontra:</p>
+        <ul>
+            <li>Produtos para estudar, trabalhar e jogar.</li>
+            <li>Variedade de peças e acessórios.</li>
+            <li>Atendimento para ajudar na sua escolha.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© 2026 PC Store</p>
+        <p> Todos os direitos reservados</p>
+        <p><a href="contatos.html">Fale conosco</a></p>
+    </footer>
+</body>
+</html>

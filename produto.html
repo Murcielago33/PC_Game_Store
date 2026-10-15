@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - PC Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="brand">
+                <img class="logo" src="img/logo.jpeg" alt="Logo da PC Store">
+                <div class="brand-copy"><h1>PC Store</h1><p>Sua loja de informática.</p></div>
+            </div>
+            <form class="site-search" action="produtos.html" method="get">
+                <label for="site-search">Buscar produtos</label>
+                <input type="search" id="site-search" name="q" placeholder="Buscar produtos...">
+                <button type="submit" aria-label="Buscar">🔍</button>
+            </form>
+            <div class="header-actions">
+                <div class="account-links"><a href="login.html">Login</a><a href="cadastro.html">Cadastro</a></div>
+                <a class="cart-button" href="dashboard.html" aria-label="Abrir carrinho">🛒</a>
+                <input class="theme-toggle" type="checkbox" id="theme-toggle">
+                <label class="theme-button" for="theme-toggle" aria-label="Alternar tema"><span class="dark-label">🌙</span><span class="light-label">☀️</span></label>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="dashboard.html">Painel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Produto de informática</h2>
+        <section class="product-detail">
+            <img src="img/backgrond_car.jpeg" alt="Imagem genérica de produto de informática">
+            <div>
+                <h3>Descrição do produto</h3>
+                <p>Produto de informática para uso diário, estudo ou trabalho. Imagem, nome e informações ilustrativas.</p>
+                <p class="price">R$ 250,00</p>
+                <a class="buy-button" href="pagamento.html">Comprar</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 PC Store</p>
+        <p>Todos os direitos reservados</p>
+        <p><a href="contatos.html">Fale conosco</a></p>
+    </footer>
+</body>
+</html>

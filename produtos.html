@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - PC Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-main">
+            <div class="brand">
+                <img class="logo" src="img/logo.jpeg" alt="Logo da PC Store">
+                <div class="brand-copy"><h1>PC Store</h1><p>Sua loja de informática.</p></div>
+            </div>
+            <form class="site-search" action="produtos.html" method="get">
+                <label for="site-search">Buscar produtos</label>
+                <input type="search" id="site-search" name="q" placeholder="Buscar produtos...">
+                <button type="submit" aria-label="Buscar">🔍</button>
+            </form>
+            <div class="header-actions">
+                <div class="account-links"><a href="login.html">Login</a><a href="cadastro.html">Cadastro</a></div>
+                <a class="cart-button" href="dashboard.html" aria-label="Abrir carrinho">🛒</a>
+                <input class="theme-toggle" type="checkbox" id="theme-toggle">
+                <label class="theme-button" for="theme-toggle" aria-label="Alternar tema"><span class="dark-label">🌙</span><span class="light-label">☀️</span></label>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="dashboard.html">Painel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nossos produtos</h2>
+        <p>Conheça nosso catálogo.</p>
+
+        <h3>Computadores</h3>
+        <div class="cards">
+            <article class="product-card">
+                <img src="img/backgrond_car.jpeg" alt="Notebook para estudos">
+                <h4>Notebook para estudos</h4>
+                <p>8 GB de memória e SSD de 256 GB.</p>
+                <p class="price">R$ 2.500,00</p>
+                <button class="add-cart" type="button" aria-label="Adicionar Notebook para estudos ao carrinho">+ 🛒</button>
+                <a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a>
+            </article>
+            <article class="product-card">
+                <img src="img/backgrond_car.jpeg" alt="Computador de mesa">
+                <h4>Computador de mesa</h4>
+                <p>16 GB de memória e SSD de 512 GB.</p>
+                <p class="price">R$ 3.200,00</p>
+                <button class="add-cart" type="button" aria-label="Adicionar Computador de mesa ao carrinho">+ 🛒</button>
+                <a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a>
+            </article>
+        </div>
+
+        <br>
+        <hr>
+        <h3>Acessórios</h3>
+        <div class="cards">
+            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Teclado USB"><h4>Teclado USB</h4><p>Conforto para digitar todos os dias.</p><p class="price">R$ 80,00</p><button class="add-cart" type="button" aria-label="Adicionar Teclado USB ao carrinho">+ 🛒</button><a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a></article>
+            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Mouse sem fio"><h4>Mouse sem fio</h4><p>Controle preciso e sem fios.</p><p class="price">R$ 60,00</p><button class="add-cart" type="button" aria-label="Adicionar Mouse sem fio ao carrinho">+ 🛒</button><a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a></article>
+            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Monitor de 24 polegadas"><h4>Monitor de 24 polegadas</h4><p>Imagem ampla para trabalhar e estudar.</p><p class="price">R$ 750,00</p><button class="add-cart" type="button" aria-label="Adicionar Monitor ao carrinho">+ 🛒</button><a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a></article>
+            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Fone de ouvido com microfone"><h4>Fone de ouvido</h4><p>Áudio claro com microfone integrado.</p><p class="price">R$ 120,00</p><button class="add-cart" type="button" aria-label="Adicionar Fone de ouvido ao carrinho">+ 🛒</button><a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a></article>
+        </div>
+
+        <br>
+        <hr>
+        <h3>Peças</h3>
+        <div class="cards">
+            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Memória RAM de 8 GB"><h4>Memória RAM de 8 GB</h4><p>Mais agilidade para suas tarefas.</p><p class="price">R$ 150,00</p><button class="add-cart" type="button" aria-label="Adicionar Memória RAM ao carrinho">+ 🛒</button><a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a></article>
+            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="SSD de 480 GB"><h4>SSD de 480 GB</h4><p>Armazenamento rápido e eficiente.</p><p class="price">R$ 250,00</p><button class="add-cart" type="button" aria-label="Adicionar SSD ao carrinho">+ 🛒</button><a class="card-link" href="produto.html" aria-label="Ver detalhes do produto"></a></article>
+        </div>
+        <p><a href="contatos.html">Entre em contato para falar com nossos especialistas</a></p>
+    </main>
+
+    <footer>
+        <p>© 2026 PC Store</p>
+        <p> Todos os direitos reservados</p>
+        <p><a href="contatos.html">Fale conosco</a></p>
+    </footer>
+</body>
+</html>
