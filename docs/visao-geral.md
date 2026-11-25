@@ -6,14 +6,14 @@ A PC Game Store é uma aplicação web de comércio de produtos de informática.
 
 ## Objetivos e público
 
-O projeto organiza em um só local produtos destinados a estudantes, profissionais e pessoas interessadas em informática. A interface foi estruturada para permitir que visitantes pesquisem itens, consultem detalhes e montem um carrinho antes de acessar o checkout.
+O projeto organiza em um só local produtos destinados a estudantes, profissionais, gamers e pessoas interessadas em informática. A interface foi estruturada para permitir que os visitantes pesquisem os pordutos, possam criar uma conta e adicionar itens ao carrinho
 
 ## Tecnologias
 
-- PHP para renderização das páginas e operações de conta.
-- MySQL para os dados persistentes definidos no esquema SQL.
-- PDO para acesso ao banco de dados.
-- HTML semântico, CSS responsivo e JavaScript para interações no navegador.
+- PHP 
+- MySQL
+- PDO 
+- HTML, CSS responsivo e JavaScript
 
 ## Componentes e responsabilidades
 

@@ -1,6 +1,6 @@
 # PC Game Store
 
-Aplicação web de uma loja de informática, desenvolvida com PHP, HTML, CSS, JavaScript e MySQL. O projeto reúne catálogo de produtos, pesquisa, carrinho no navegador, cadastro e autenticação de clientes, painel e formulário de pagamento.
+Uma aplicação web de uma loja de informática, desenvolvida com PHP, HTML, CSS, JavaScript e MySQL. O projeto possui um catálogo de produtos, pesquisa, carrinho no navegador, cadastro e autenticação de clientes, painel e formulário de pagamento.
 
 ## Requisitos
 

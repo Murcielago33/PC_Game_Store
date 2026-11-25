@@ -2,11 +2,10 @@
 
 ## Acessar a loja
 
-Para a configuração local, inicie Apache e MySQL pelo XAMPP Control Panel e abra [http://localhost/PC_Game_Store/index.php](http://localhost/PC_Game_Store/index.php). Esse endereço pressupõe que a pasta do projeto se chama `PC_Game_Store` e está diretamente dentro da pasta `htdocs` do XAMPP. Se a pasta tiver outro nome, substitua `PC_Game_Store` no endereço pelo nome usado.
+Para a configuração local, inicie Apache e MySQL pelo XAMPP Control Panel e abra [http://localhost/PC_Game_Store/index.php](http://localhost/PC_Game_Store/index.php). Esse endereço assume que a pasta do projeto se chama `PC_Game_Store` e está diretamente dentro da pasta `htdocs` do XAMPP. Se a pasta tiver outro nome, por favor, substitua `PC_Game_Store` no endereço pelo nome usado.
 
-O caminho `C:\xampp\htdocs\PC_Game_Store\index.php` identifica um arquivo no computador; não é um endereço para abrir o site. Use o endereço `http://localhost/...` no navegador para que o Apache execute o PHP. Consulte o [README](../README.md) para instalar o projeto, importar o banco de dados e solucionar erros de acesso.
-
-A navegação superior dá acesso ao início, catálogo, informações da loja, contatos e painel.
+### Caso de erro comum
+Observe que o caminho `C:\xampp\htdocs\PC_Game_Store\index.php` indica um arquivo no computador; não é um endereço para abrir o site. Use o endereço `http://localhost/...` no navegador para que o Apache execute o PHP. Consulte o [README](../README.md) para instalar o projeto, importar o banco de dados e solucionar erros de acesso.
 
 ## Localizar produtos
 
