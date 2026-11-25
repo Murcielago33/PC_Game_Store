@@ -66,7 +66,7 @@
         <h3>Seleção em destaque</h3>
         <div class="cards">
             <article class="product-card">
-                <img src="img/backgrond_car.jpeg" alt="Notebook LG Novo">
+                <img src="img/produto2.png" alt="Notebook LG Novo">
                 <h4>Notebook LG Novo</h4>
                 <p>Notebook prático para estudos e trabalho.</p>
                 <p class="price">R$ 2.500,00</p>
@@ -74,7 +74,7 @@
                 <a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Notebook LG Novo"></a>
             </article>
             <article class="product-card">
-                <img src="img/backgrond_car.jpeg" alt="Teclado USB">
+                <img src="img/produto3.png" alt="Teclado USB">
                 <h4>Teclado USB</h4>
                 <p>Teclado confortável para o uso diário.</p>
                 <p class="price">R$ 80,00</p>
@@ -82,7 +82,7 @@
                 <a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Teclado USB"></a>
             </article>
             <article class="product-card">
-                <img src="img/backgrond_car.jpeg" alt="Mouse sem fio">
+                <img src="img/produto4.png" alt="Mouse sem fio">
                 <h4>Mouse sem fio</h4>
                 <p>Precisão e liberdade para sua rotina.</p>
                 <p class="price">R$ 60,00</p>
