@@ -1,6 +1,6 @@
 # Modelo de dados
 
-O esquema é criado pelo script [`instruction.sql`](../database/instruction.sql) no banco `db_pcstore`. Os registros persistentes descritos abaixo usam InnoDB e chaves estrangeiras para manter a integridade entre entidades.
+O esquema do banco de dados pode ser criado pelo script [`instruction.sql`](../database/instruction.sql) no banco `db_pcstore`. Os registros persistentes documentados abaixo usam InnoDB e chaves estrangeiras para manter a integridade entre entidades.
 
 ## Entidades
 
@@ -29,7 +29,7 @@ O esquema é criado pelo script [`instruction.sql`](../database/instruction.sql)
 
 ## Observação sobre persistência
 
-O cadastro e o login utilizam a tabela `usuarios`. O carrinho da interface permanece no armazenamento local do navegador e o checkout da interface não cria pedidos nem persiste dados financeiros. As demais tabelas estão disponíveis no esquema para as próximas operações da aplicação.
+O cadastro e o login usam a tabela `usuarios`. O carrinho da interface permanece no armazenamento local do navegador e o checkout da interface não cria pedidos nem persiste dados financeiros. As demais tabelas estão disponíveis no esquema para as próximas operações da aplicação.
 
 ## Inicialização
 

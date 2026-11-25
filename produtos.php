@@ -44,7 +44,7 @@
         <h3>Computadores</h3>
         <div class="cards">
             <article class="product-card">
-                <img src="img/backgrond_car.jpeg" alt="Notebook para estudos">
+                <img src="img/produto2.png" alt="Notebook para estudos">
                 <h4>Notebook para estudos</h4>
                 <p>8 GB de memória e SSD de 256 GB.</p>
                 <p class="price">R$ 2.500,00</p>
@@ -52,7 +52,7 @@
                 <a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Notebook para estudos"></a>
             </article>
             <article class="product-card">
-                <img src="img/backgrond_car.jpeg" alt="Computador de mesa">
+                <img src="img/produto1.png" alt="Computador de mesa">
                 <h4>Computador de mesa</h4>
                 <p>16 GB de memória e SSD de 512 GB.</p>
                 <p class="price">R$ 3.200,00</p>
@@ -65,18 +65,18 @@
         <hr>
         <h3>Acessórios</h3>
         <div class="cards">
-            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Teclado USB"><h4>Teclado USB</h4><p>Conforto e praticidade para digitar todos os dias.</p><p class="price">R$ 80,00</p><button class="add-cart" type="button" aria-label="Adicionar Teclado USB ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Teclado USB"></a></article>
-            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Mouse sem fio"><h4>Mouse sem fio</h4><p>Precisão e liberdade de movimento para sua rotina.</p><p class="price">R$ 60,00</p><button class="add-cart" type="button" aria-label="Adicionar Mouse sem fio ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Mouse sem fio"></a></article>
-            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Monitor de 24 polegadas"><h4>Monitor de 24 polegadas</h4><p>Mais espaço de visualização para suas tarefas.</p><p class="price">R$ 750,00</p><button class="add-cart" type="button" aria-label="Adicionar Monitor ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Monitor de 24 polegadas"></a></article>
-            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Fone de ouvido com microfone"><h4>Fone de ouvido</h4><p>Áudio claro e microfone integrado para chamadas.</p><p class="price">R$ 120,00</p><button class="add-cart" type="button" aria-label="Adicionar Fone de ouvido ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Fone de ouvido"></a></article>
+            <article class="product-card"><img src="img/produto3.png" alt="Teclado USB"><h4>Teclado USB</h4><p>Conforto e praticidade para digitar todos os dias.</p><p class="price">R$ 80,00</p><button class="add-cart" type="button" aria-label="Adicionar Teclado USB ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Teclado USB"></a></article>
+            <article class="product-card"><img src="img/produto4.png" alt="Mouse sem fio"><h4>Mouse sem fio</h4><p>Precisão e liberdade de movimento para sua rotina.</p><p class="price">R$ 60,00</p><button class="add-cart" type="button" aria-label="Adicionar Mouse sem fio ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Mouse sem fio"></a></article>
+            <article class="product-card"><img src="img/produto5.png" alt="Monitor de 24 polegadas"><h4>Monitor de 24 polegadas</h4><p>Mais espaço de visualização para suas tarefas.</p><p class="price">R$ 750,00</p><button class="add-cart" type="button" aria-label="Adicionar Monitor ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Monitor de 24 polegadas"></a></article>
+            <article class="product-card"><img src="img/produto6.png" alt="Fone de ouvido com microfone"><h4>Fone de ouvido</h4><p>Áudio claro e microfone integrado para chamadas.</p><p class="price">R$ 120,00</p><button class="add-cart" type="button" aria-label="Adicionar Fone de ouvido ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do Fone de ouvido"></a></article>
         </div>
 
         <br>
         <hr>
         <h3>Peças</h3>
         <div class="cards">
-            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="Memória RAM de 8 GB"><h4>Memória RAM de 8 GB</h4><p>Amplie a memória disponível para suas atividades.</p><p class="price">R$ 150,00</p><button class="add-cart" type="button" aria-label="Adicionar Memória RAM ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes da Memória RAM de 8 GB"></a></article>
-            <article class="product-card"><img src="img/backgrond_car.jpeg" alt="SSD de 480 GB"><h4>SSD de 480 GB</h4><p>Armazenamento ágil para arquivos e aplicativos.</p><p class="price">R$ 250,00</p><button class="add-cart" type="button" aria-label="Adicionar SSD ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do SSD de 480 GB"></a></article>
+            <article class="product-card"><img src="img/produto7.png" alt="Memória RAM de 8 GB"><h4>Memória RAM de 8 GB</h4><p>Amplie a memória disponível para suas atividades.</p><p class="price">R$ 150,00</p><button class="add-cart" type="button" aria-label="Adicionar Memória RAM ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes da Memória RAM de 8 GB"></a></article>
+            <article class="product-card"><img src="img/produto8.png" alt="SSD de 480 GB"><h4>SSD de 480 GB</h4><p>Armazenamento ágil para arquivos e aplicativos.</p><p class="price">R$ 250,00</p><button class="add-cart" type="button" aria-label="Adicionar SSD ao carrinho">+ 🛒</button><a class="card-link" href="detalhes_produto.php" aria-label="Abrir detalhes do SSD de 480 GB"></a></article>
         </div>
         <p>Precisa de ajuda para escolher? <a href="contatos.php">Entre em contato com nossos especialistas</a>.</p>
     </main>
